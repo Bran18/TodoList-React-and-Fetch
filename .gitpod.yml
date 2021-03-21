@@ -4,3 +4,7 @@ ports:
 tasks:
     - command: >
         npm i vercel -g
+
+vscode:
+  extensions:
+    - tomi.xajssnippets@1.2.0:PmVqVT8AKuS0fNeiILeduQ==
