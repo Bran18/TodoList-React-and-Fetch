@@ -122,7 +122,7 @@ export function Home() {
 		if (list == undefined) {
 			return (
 				<div>
-					<p>No tasks, add a task</p>
+					<p>We clear!!! Add something you wanna do</p>
 				</div>
 			);
 		} else {
@@ -203,7 +203,7 @@ export function Home() {
 								<input
 									type="text"
 									className="form-control"
-									placeholder="What needs to be done?"
+									placeholder="Something you wanna do?"
 									value={inputValue}
 									onChange={e =>
 										SetInputValue(e.target.value)
@@ -216,7 +216,7 @@ export function Home() {
 					</div>
 					<div className="card-footer">
 						<button type="button" onClick={() => DeleteTodo()}>
-							Clear List
+							Clear All
 						</button>
 					</div>
 				</div>
